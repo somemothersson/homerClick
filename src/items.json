@@ -1,0 +1,48 @@
+[
+    {
+      "id": 1,
+      "name": "homer1",
+      "image": "/images/homer1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "homer2",
+      "image": "/images/homer2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "homer3",
+      "image": "/images/homer3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "homer4",
+      "image": "/images/homer4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "homer5",
+      "image": "/images/homer5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "homer6",
+      "image": "/images/homer6.jpg"
+    },
+    {
+      "id": 7,
+      "name": "homer7",
+      "image": "/images/homer7.jpg"
+    },
+    {
+      "id": 8,
+      "name": "homer8",
+      "image": "/images/homer8.jpg"
+    },
+    {
+      "id": 9,
+      "name": "homer9",
+      "image": "/images/homer9.jpg"
+    }
+  ]
+  

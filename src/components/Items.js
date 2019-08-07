@@ -11,7 +11,7 @@ class Items extends Component {
             key={item.id} 
             item={item} 
             getId={this.props.getId}/>
-        ))
+        )).sort((a, b) => {return 0.5 - Math.random()});
     }
 }
 

@@ -20,6 +20,7 @@ class App extends Component {
     } else {
       console.log("loss")
     }
+    this.forceUpdate();
 }
 
   render() {

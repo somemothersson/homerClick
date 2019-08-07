@@ -25,7 +25,7 @@ ItemImage.propTypes = {
     item: PropTypes.object.isRequired
 }
 const styles = {
-        position: "relative",
+        // position: "relative",
         // padding: "1em",
         transition: "all ease .5s",
         cursor: 'pointer'

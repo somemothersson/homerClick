@@ -26,13 +26,16 @@ class App extends Component {
     console.log(this.state.items)
     return (
       <div className="App">
+        
         <Header
         score={this.state.score}
         highScore={this.state.highScore}
         />
+        <div className="container">
         <Items 
         getId={this.getId}
         items={this.state.items}/>
+        </div>
       </div>
     );
   }

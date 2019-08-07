@@ -21,7 +21,7 @@ class App extends Component {
     this.setState({ selected: [...this.state.selected, id]})
     console.log(this.state.selected)
 
-    //If the Id of the Item mataches the random number...
+    //If the Id of the selected item has not been chosen previously, the array done not include the id
     if(this.state.selected.includes(id)=== false){
 
       //...Update the score in state
@@ -33,16 +33,16 @@ class App extends Component {
       //...Update the new high score
       this.setState( {highScore: this.state.score })
 
-      //If the id "value" of the item does not match the randomNumber...
+      //If the id "value" of the item does match a previously selected image
     } else {
       
       //run resetScore method to set score to 0 when no match
       this.reset()
     }
-    //Very cool
+    //Very cool and easy way to re-render
     this.forceUpdate();
 }
-//method to reset score to 0
+//method to reset score to 0 and empty selected array
 reset = () => {
   this.setState({score: 0})
   this.setState({selected: []})

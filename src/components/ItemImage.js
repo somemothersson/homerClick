@@ -2,32 +2,34 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types';
 
 export class ItemImage extends Component {
-    getId(e) {
-        console.log(this.props.item.id)
-    }
     
     render() {
+        //
         const{id, image, name} = this.props.item;
         return (
             
                <button><img 
+               //apply inline style
                style={styles} 
+
                src={image} 
                alt={name}
-               onClick={this.props.getId.bind(this, id)}
+               //onClick Event we are binding and passing the id to the onClick method in App.js
+               onClick={this.props.onClick.bind(this, id)}
                />
                </button>
             
         )
     }
 }
+
+//Proptypes ensure the data being recieved through props is valid(best practices)
 ItemImage.propTypes = {
     item: PropTypes.object.isRequired
 }
+//styles in jsx
 const styles = {
-        // position: "relative",
-        // padding: "1em",
-        transition: "all ease .5s",
+        //change the cursor to pointer for UI
         cursor: 'pointer'
     }
  

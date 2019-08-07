@@ -6,8 +6,10 @@ export class Header extends Component {
         return (
             <div>
                 <header style={headerStyle}>
-                    <h1>Homer Click Game</h1>
+                    <h1>Homer Simpson Click Game</h1>
                     <h2>Score:<span>{this.props.score}</span> | High Score:<span>{this.props.highScore}</span></h2>
+                    { }
+                    <p>To Play: Click one of many faces of Homer to get started</p>
                 </header>
                 
             </div>

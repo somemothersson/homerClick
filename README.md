@@ -1,9 +1,9 @@
 
 ## HomerClick
 
-A Click Game built in React that randomly renders a group of 9 images(each with a value between 1 and 3) on every click. On Load a random number between 1 and 3 will generated. 
+A Memory Click Game built in React that randomly renders a group of 9 images. The app will remember the image chosen on every click and re-render all images randomly. Choose a previously unslected image to score points, if you choose an image you selected previously your score will be reset and you get to try again
 
-### Instructions
+### App functionality
 
 
 
@@ -15,6 +15,5 @@ A Click Game built in React that randomly renders a group of 9 images(each with 
 
 * Once the user's score is reset after an incorrect guess, the game will restart.
 
-* When complete, the application will be deployed to Github Pages. See the README generated with Create React App for instructions on deploying the application to Github Pages.
 
 - - -

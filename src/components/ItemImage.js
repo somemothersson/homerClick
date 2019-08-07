@@ -30,7 +30,10 @@ ItemImage.propTypes = {
 //styles in jsx
 const styles = {
         //change the cursor to pointer for UI
-        cursor: 'pointer'
+        height: 190,
+        width: 140,
+        cursor: 'pointer',
+        padding: "5px"
     }
  
 

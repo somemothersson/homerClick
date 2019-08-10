@@ -9,7 +9,7 @@ export class Header extends Component {
                     <h1>Homer Simpson Click Game</h1>
                     <h2>Score:<span>{this.props.score}</span> | High Score:<span>{this.props.highScore}</span></h2>
                     { }
-                    <p>To Play: Click one of many faces of Homer to get started</p>
+                    <p>To Play: Select each Homer, if you select a already chosen homer - The score resets</p>
                 </header>
                 
             </div>

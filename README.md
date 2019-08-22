@@ -5,7 +5,7 @@ A Memory Click Game built in React that randomly renders a group of 9 images. Th
 
 ### App functionality
 
-![Game Play](./supplemental/homerClick.png)
+![Game Play](./supplemental/homeClick.png)
 
 * The application will render images of Homer Simpson to the screen. Each image listens for click events.
 
